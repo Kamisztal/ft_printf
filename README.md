@@ -8,7 +8,7 @@ My own remake of `printf`, written in C as part of the Common Core of 42. It is 
 
 ## Goal
 
-Recode the standard `printf` function to learn how it work, that function will be reused in future projects.
+Recode the standard `printf` function to learn how it works, that function will be reused in future projects.
 
 ## Content
 
