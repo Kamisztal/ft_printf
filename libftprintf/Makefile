@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+         #
+#    By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/26 16:42:25 by pmisztal          #+#    #+#              #
-#    Updated: 2026/10/26 16:42:25 by pmisztal         ###   ########.fr        #
+#    Updated: 2026/11/08 23:21:51 by pmisztal         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= libft.a
+NAME	= libftprintf.a
 CC		= cc
 CFLAGS	= -Wall -Wextra -Werror
 
