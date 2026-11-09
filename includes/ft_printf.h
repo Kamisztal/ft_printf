@@ -25,6 +25,7 @@ int		ft_detecttype(int i);
 //Put
 int		ft_intput(va_list ap);
 int		ft_charput(va_list ap);
-int	ft_stringput(va_list ap);
+int		ft_stringput(va_list ap);
+int		ft_unsignedput(va_list ap);
 
 #endif
