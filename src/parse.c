@@ -40,10 +40,14 @@ int	ft_intput(va_list ap)
 	int		countoct;
 
 	res = 0;
+	countoct = 0;
 	res = va_arg(ap, int);
 	ft_putnbr_fd(res, 1);
 	oct = ft_itoa(res);
+	if (oct == NULL)
+		return (countoct);
 	countoct = ft_strlen(oct);
+	free(oct);
 	return (countoct);
 }
 
@@ -58,14 +62,16 @@ int	ft_charput(va_list ap)
 
 int	ft_stringput(va_list ap)
 {
-	int		count;
 	char	*str;
 
-	count = 0;
 	str = va_arg(ap, char *);
+	if (str == NULL)
+	{
+		ft_putstr_fd("(null)", 1);
+		return (6);
+	}
 	ft_putstr_fd(str, 1);
-	count = ft_strlen(str);
-	return (count);
+	return (ft_strlen(str));
 }
 
 int	ft_apply(va_list ap, int type)
