@@ -19,10 +19,10 @@ int	ft_print(va_list ap, const char *s)
 	int	option;
 
 	i = 0;
-	option = 0;
 	sizeall = 0;
 	while (s[i] != '\0')
 	{
+		option = 0;
 		if (s[i] == '%' && s[i + 1])
 			option = ft_detecttype(s[i + 1]);
 		if (option <= 9 && option >= 1)

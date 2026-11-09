@@ -2,7 +2,7 @@ NAME		= libftprintf.a
 CC			= cc
 CFLAGS		= -Wall -Wextra -Werror
 
-LIBFT_DIR	= libftprintf
+LIBFT_DIR	= libft
 LIBFT		= $(LIBFT_DIR)/libft.a
 
 SRCS		= src/ft_printf.c src/parse.c
