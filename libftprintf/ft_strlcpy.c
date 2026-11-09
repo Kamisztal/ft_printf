@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/13 00:47:22 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/08/13 00:47:22 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:36 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:37 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

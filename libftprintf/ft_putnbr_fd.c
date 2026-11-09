@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/08 22:30:39 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/09/08 22:30:39 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:17 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:18 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

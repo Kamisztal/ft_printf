@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 00:20:57 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/10/06 00:20:57 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:11:27 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:11:28 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

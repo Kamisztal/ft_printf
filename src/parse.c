@@ -6,13 +6,13 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 13:00:35 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 13:11:17 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 14:41:31 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
-int	detectsign(int i)
+int	ft_detectsign(int i)
 {
 	if (i == 'c')
 		return (1);

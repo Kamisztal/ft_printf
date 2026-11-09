@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/02 18:22:56 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/08/02 18:22:56 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:54 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:55 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

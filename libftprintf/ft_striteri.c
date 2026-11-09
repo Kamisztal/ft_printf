@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/28 16:29:35 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/09/28 16:29:35 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:29 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:30 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

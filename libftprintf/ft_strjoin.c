@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/21 21:00:43 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/09/21 21:00:43 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:32 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:33 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

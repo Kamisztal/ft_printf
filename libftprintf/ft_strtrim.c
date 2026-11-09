@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 10:32:24 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/09/22 10:32:24 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/06 09:22:29 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/06 09:22:36 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,21 @@ char	*ft_strtrim(char const *s1, char const *set)
 	int		i;
 	int		debut;
 	int		len;
+	int		fin;
 	char	*str;
 
 	len = ft_strlen(s1);
-	i = 0;
-	str = malloc(len + 1);
+	debut = 0;
+	while (s1[debut] != '\0' && ft_strchr(set, s1[debut]) != NULL)
+		debut++;
+	fin = len - 1;
+	while (fin > debut && ft_strchr(set, s1[fin]) != NULL)
+		fin--;
+	str = malloc(sizeof(char) * (fin - debut + 2));
 	if (str == NULL)
 		return (NULL);
-	while (s1[i] != '\0' && ft_strchr(set, s1[i]) != NULL)
-		i++;
-	debut = i;
-	while (len - 1 > debut && ft_strchr(set, s1[len]) != NULL)
-		len--;
 	i = 0;
-	while (debut <= len)
+	while (debut <= fin)
 	{
 		str[i] = s1[debut];
 		i++;

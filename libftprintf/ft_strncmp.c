@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/12 18:38:52 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/08/12 18:38:52 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:12:43 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:12:44 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

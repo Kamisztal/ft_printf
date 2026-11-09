@@ -6,31 +6,35 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 23:18:21 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 13:25:44 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 15:05:37 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
-char	*print(va_list ap, char *s)
+int	ft_print(va_list ap, const char *s)
 {
 	int	i;
 	int	option;
 
+	(void)ap;
 	i = 0;
 	option = 0;
 	while(s[i] != '\0')
 	{
 		if (s[i] == '%' && s[i + 1])
 		{
-			if (detectsign(s[i + 1]) != 0);
+			if (ft_detectsign(s[i + 1]) != 0)
+			{
 				option = 1;
+				return (option);
+			}
 			i++;
 		}
-		ft_putchar_fd(s, 1);
+		ft_putchar_fd(s[i], 1);
+		i++;
 	}
-
-
+	return (i);
 }
 
 int ft_printf(const char *s, ...)
@@ -38,11 +42,9 @@ int ft_printf(const char *s, ...)
 	va_list	ap;
 	int		retnb;
 
-	va_start(ap, *s);
+	va_start(ap, s);
 	retnb = 0;
-	print(ap, *s);
-
-
-
-
+	va_end(ap);
+	retnb = ft_print(ap, s);
+	return (retnb);
 }

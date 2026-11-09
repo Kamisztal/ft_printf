@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/26 15:57:42 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/10/26 15:57:42 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:11:35 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:11:36 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

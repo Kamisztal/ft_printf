@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 15:08:00 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/10/06 15:08:00 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:11:37 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 12:11:12 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

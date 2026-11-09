@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 20:34:43 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/10/06 20:34:43 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:11:32 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 11:01:32 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

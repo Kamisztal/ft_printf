@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmisztal <patrick.misztal@learner.42.te    +#+  +:+       +#+        */
+/*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/02 18:22:36 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/08/02 18:22:36 by pmisztal         ###   ########.fr       */
+/*   Created: 2026/11/04 10:11:14 by pmisztal          #+#    #+#             */
+/*   Updated: 2026/11/04 10:11:15 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
