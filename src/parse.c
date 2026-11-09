@@ -6,7 +6,7 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 13:00:35 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 16:53:18 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 17:59:34 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,27 @@ int	ft_intput(va_list ap)
 	return (countoct);
 }
 
+int	ft_charput(va_list ap)
+{
+	char	c;
+
+	c = va_arg(ap, int);
+	ft_putchar_fd(c, 1);
+	return (1);
+}
+
+int	ft_stringput(va_list ap)
+{
+	int		count;
+	char	*str;
+
+	count = 0;
+	str = va_arg(ap, char *);
+	ft_putstr_fd(str, 1);
+	count = ft_strlen(str);
+	return (count);
+}
+
 int	ft_apply(va_list ap, int type)
 {
 	int	count;
@@ -57,6 +78,16 @@ int	ft_apply(va_list ap, int type)
 		count = ft_intput(ap);
 		return (count);
 	}
+	if (type == 1)
+	{
+		ft_charput(ap);
+		return (1);
+	}
+	count = 0;
+	if (type == 2)
+	{
+		count = ft_stringput(ap);
+		return (count);
+	}
 	return (0);
-
 }

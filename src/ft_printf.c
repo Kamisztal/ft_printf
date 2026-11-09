@@ -6,7 +6,7 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 23:18:21 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 17:30:22 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 17:58:29 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_print(va_list ap, const char *s)
 	i = 0;
 	option = 0;
 	sizeall = 0;
-	while(s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		if (s[i] == '%' && s[i + 1])
 			option = ft_detecttype(s[i + 1]);
@@ -40,7 +40,7 @@ int	ft_print(va_list ap, const char *s)
 	return (sizeall);
 }
 
-int ft_printf(const char *s, ...)
+int	ft_printf(const char *s, ...)
 {
 	va_list	ap;
 	int		retnb;
