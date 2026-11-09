@@ -6,13 +6,13 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 13:00:35 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 14:41:31 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 16:53:18 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-int	ft_detectsign(int i)
+int	ft_detecttype(int i)
 {
 	if (i == 'c')
 		return (1);
@@ -31,4 +31,32 @@ int	ft_detectsign(int i)
 	if (i == '%')
 		return (9);
 	return (0);
+}
+
+int	ft_intput(va_list ap)
+{
+	int		res;
+	char	*oct;
+	int		countoct;
+
+	res = 0;
+	res = va_arg(ap, int);
+	ft_putnbr_fd(res, 1);
+	oct = ft_itoa(res);
+	countoct = ft_strlen(oct);
+	return (countoct);
+}
+
+int	ft_apply(va_list ap, int type)
+{
+	int	count;
+
+	count = 0;
+	if (type == 4)
+	{
+		count = ft_intput(ap);
+		return (count);
+	}
+	return (0);
+
 }

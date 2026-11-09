@@ -6,7 +6,7 @@
 /*   By: pmisztal <pmisztal@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 23:18:11 by pmisztal          #+#    #+#             */
-/*   Updated: 2026/11/09 15:06:47 by pmisztal         ###   ########.fr       */
+/*   Updated: 2026/11/09 16:10:39 by pmisztal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@
 #include "../libftprintf/libft.h"
 
 int ft_printf(const char *, ...);
-int	ft_detectsign(int i);
+int	ft_detecttype(int i);
 int	ft_print(va_list ap, const char *s);
-
+int	ft_intput(va_list ap);
+int	ft_apply(va_list ap, int i);
 #endif
