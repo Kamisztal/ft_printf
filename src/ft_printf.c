@@ -27,7 +27,7 @@ int	ft_print(va_list ap, const char *s)
 			option = ft_detecttype(s[i + 1]);
 		if (option <= 9 && option >= 1)
 		{
-			sizeall += ft_apply(ap, option);
+			sizeall += ft_apply_basic(ap, option);
 			i += 2;
 		}
 		else

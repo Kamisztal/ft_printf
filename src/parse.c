@@ -43,6 +43,7 @@ int	ft_apply_basic(va_list ap, int type)
 		count = ft_intput(ap);
 		return (count);
 	}
+	count = 0;
 	if (type == 1)
 	{
 		ft_charput(ap);
@@ -54,6 +55,9 @@ int	ft_apply_basic(va_list ap, int type)
 		count = ft_stringput(ap);
 		return (count);
 	}
+	count = 0;
+	if else
+		return (ft_apply_else(va_list ap, int type));
 	return (0);
 }
 
@@ -68,6 +72,7 @@ int	ft_apply_else(va_list ap, int type)
 		ft_putchar_fd('%', 1);
 		return (count);
 	}
+	count = 0;
 	if (type == 6)
 	{
 		unsigned int	nb;
@@ -75,4 +80,5 @@ int	ft_apply_else(va_list ap, int type)
 		count = ft_unsignedput(nb);
 		return (count);
 	}
+	return (count);
 }
