@@ -24,6 +24,7 @@ int		ft_print(va_list ap, const char *s);
 int		ft_apply_basic(va_list ap, int type);
 int		ft_apply_else(va_list ap, int type);
 int		ft_apply_hexa(va_list ap, int type);
+int		ft_apply_pointer(va_list ap, int type);
 int		ft_detecttype(int i);
 
 //Put
