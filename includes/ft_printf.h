@@ -33,5 +33,6 @@ int		ft_stringput(va_list ap);
 int		ft_unsignedput(unsigned int n);
 int		ft_hexa_low_put(unsigned int n);
 int		ft_hexa_up_put(unsigned int n);
+int		ft_put_pointer(unsigned long n);
 
 #endif

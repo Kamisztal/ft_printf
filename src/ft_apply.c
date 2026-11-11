@@ -89,15 +89,41 @@ int	ft_apply_hexa(va_list ap, int type)
 	if (type == 7)
 	{
 		unsigned int	nb;
+
 		nb = va_arg(ap, unsigned int);
 		count = ft_hexa_low_put(nb);
 		return (count);
 	}
+	count = 0;
 	if (type == 8)
 	{
 		unsigned int	nb;
+
 		nb = va_arg(ap, unsigned int);
 		count = ft_hexa_up_put(nb);
+		return (count);
+	}
+	return (ft_apply_pointer(ap, type));
+}
+
+int	ft_apply_pointer(va_list ap, int type)
+{
+	int	count;
+
+	count = 0;
+	if (type == 3)
+	{
+		void	*ptr;
+
+		ptr = va_arg(ap, void *);
+		if (ptr == NULL)
+		{
+			ft_putstr_fd("(nil)", 1);
+			return (5);
+		}
+		ft_putstr_fd("0x", 1);
+		count = count + 2;
+		count = count + ft_put_pointer((unsigned long)ptr);
 		return (count);
 	}
 	return (count);
