@@ -12,7 +12,6 @@
 
 #ifndef FT_PRINT_F
 # define FT_PRINT_F
-#include <stdio.h>
 #include <stdarg.h>
 #include "../libft/libft.h"
 
