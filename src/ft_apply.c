@@ -78,5 +78,18 @@ int	ft_apply_else(va_list ap, int type)
 		count = ft_unsignedput(nb);
 		return (count);
 	}
+	return (ft_apply_hexa(ap, type));
+}
+
+int	ft_apply_hexa(va_list ap, int type)
+{
+	int	count;
+
+	count = 0;
+	if (type == 7)
+	{
+		count = ft_hexa_low_put(ap);
+		return (count);
+	}
 	return (count);
 }
