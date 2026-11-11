@@ -88,7 +88,16 @@ int	ft_apply_hexa(va_list ap, int type)
 	count = 0;
 	if (type == 7)
 	{
-		count = ft_hexa_low_put(ap);
+		unsigned int	nb;
+		nb = va_arg(ap, unsigned int);
+		count = ft_hexa_low_put(nb);
+		return (count);
+	}
+	if (type == 8)
+	{
+		unsigned int	nb;
+		nb = va_arg(ap, unsigned int);
+		count = ft_hexa_up_put(nb);
 		return (count);
 	}
 	return (count);

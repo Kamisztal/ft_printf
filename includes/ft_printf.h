@@ -19,6 +19,8 @@
 //Printf
 int		ft_printf(const char *, ...);
 int		ft_print(va_list ap, const char *s);
+
+//Apply
 int		ft_apply_basic(va_list ap, int type);
 int		ft_apply_else(va_list ap, int type);
 int		ft_apply_hexa(va_list ap, int type);
@@ -29,5 +31,7 @@ int		ft_intput(va_list ap);
 int		ft_charput(va_list ap);
 int		ft_stringput(va_list ap);
 int		ft_unsignedput(unsigned int n);
+int		ft_hexa_low_put(unsigned int n);
+int		ft_hexa_up_put(unsigned int n);
 
 #endif
