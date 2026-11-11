@@ -53,6 +53,14 @@ int	ft_stringput(va_list ap)
 	return (ft_strlen(str));
 }
 
-int	ft_unsignedput(va_list ap)
+int	ft_unsignedput(unsigned	int n)
 {
+	int	count;
+
+	count = 0;
+	if (n >= 10)
+		count = count + ft_unsignedput(n / 10);
+	ft_putchar_fd(n % 10 + '0', 1);
+	count++;
+	return (count);
 }

@@ -33,7 +33,7 @@ int	ft_detecttype(int i)
 	return (0);
 }
 
-int	ft_apply(va_list ap, int type)
+int	ft_apply_basic(va_list ap, int type)
 {
 	int	count;
 
@@ -54,11 +54,25 @@ int	ft_apply(va_list ap, int type)
 		count = ft_stringput(ap);
 		return (count);
 	}
+	return (0);
+}
+
+int	ft_apply_else(va_list ap, int type)
+{
+	int	count;
+
+	count = 0;
 	if (type == 9)
 	{
 		count = 1;
 		ft_putchar_fd('%', 1);
 		return (count);
 	}
-	return (0);
+	if (type == 6)
+	{
+		unsigned int	nb;
+		nb = va_arg(ap, unsigned int);
+		count = ft_unsignedput(nb);
+		return (count);
+	}
 }
