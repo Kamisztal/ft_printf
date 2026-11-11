@@ -13,7 +13,7 @@
 #ifndef FT_PRINT_F
 # define FT_PRINT_F
 #include <stdarg.h>
-#include "../libft/libft.h"
+#include "libft/libft.h"
 
 //Printf
 int		ft_printf(const char *, ...);

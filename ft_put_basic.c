@@ -12,7 +12,6 @@
 
 #include "ft_printf.h"
 
-
 static int	ft_intlen(int nb)
 {
 	int	count;
