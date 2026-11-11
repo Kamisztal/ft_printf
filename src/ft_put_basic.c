@@ -12,22 +12,33 @@
 
 #include "../includes/ft_printf.h"
 
+
+static int	ft_intlen(int nb)
+{
+	int	count;
+
+	count = 0;
+	if (nb <= 0)
+		count++;
+	while (nb != 0)
+	{
+		nb = nb / 10;
+		count++;
+	}
+	return (count);
+}
+
 int	ft_intput(va_list ap)
 {
 	int		res;
-	char	*oct;
-	int		countoct;
+	int		size;
 
+	size = 0;
 	res = 0;
-	countoct = 0;
 	res = va_arg(ap, int);
 	ft_putnbr_fd(res, 1);
-	oct = ft_itoa(res);
-	if (oct == NULL)
-		return (countoct);
-	countoct = ft_strlen(oct);
-	free(oct);
-	return (countoct);
+	size = ft_intlen(res);
+	return (size);
 }
 
 int	ft_charput(va_list ap)
