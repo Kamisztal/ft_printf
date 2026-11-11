@@ -56,9 +56,7 @@ int	ft_apply_basic(va_list ap, int type)
 		return (count);
 	}
 	count = 0;
-	if else
-		return (ft_apply_else(va_list ap, int type));
-	return (0);
+	return (ft_apply_else(ap, type));
 }
 
 int	ft_apply_else(va_list ap, int type)
