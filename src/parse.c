@@ -18,7 +18,7 @@ int	ft_detecttype(int i)
 		return (1);
 	if (i == 's')
 		return (2);
-		if (i == 'p')
+	if (i == 'p')
 		return (3);
 	if (i == 'd' || i == 'i')
 		return (4);
