@@ -1,25 +1,28 @@
+*This activity has been created as part of the 42 curriculum by pmisztal.*
+
 # ft_printf
 
-![Language](https://img.shields.io/badge/language-C-blue)
-![ecol](https://img.shields.io/badge/ecole-42-black)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+## Description
 
-My own remake of `printf`, written in C as part of the Common Core of 42. It is the second project after [Libft](https://github.com/Kamisztal/Libft), which is reused here.
+My own remake of `printf` in c. My printf have to be compared to the real printf
 
-## Goal
+conversions: `%c` `%s` `%p` `%d` `%i` `%u` `%x` `%X` `%%`. Like the real `printf`, it returns the number of octet written.
 
-Recode the standard `printf` function to learn how it works, that function will be reused in future projects.
+## Instructions
 
-## Content
+```bash
+make
+cc main.c -I includes libftprintf.a
+```
 
-**Prototype**
-`int ft_printf(const char *format, ...);`
+## Algorithm
 
-**Conversions**
-`%c` `%s` `%p` `%d` `%i` `%u` `%x` `%X` `%%`
+`ft_printf` reads the format string character by character. Normal characters are printed directly. When it finds a `%`, it detects the conversion letter and calls a small function adapted for that type, which reads the argument, prints it and returns how many octet it wrote. All these counts are added together and returned.
 
-Like the real `printf`, it returns the number of characters written.
+## Resources
 
----
-
-*Made by [Kamisztal](https://github.com/Kamisztal)*
+- `man 3 printf`, `man 3 stdarg`
+- Youtube (variadiques, printf)
+- Koor
+- Pear to Pear :>
+- AI was used to explain me new notions like variadiques or help me to have a better understand of for example hexadecimal base.
