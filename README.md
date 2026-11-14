@@ -3,7 +3,6 @@
 ![Language](https://img.shields.io/badge/language-C-blue)
 ![School](https://img.shields.io/badge/school-42-black)
 ![Status](https://img.shields.io/badge/status-validated-brightgreen)
-![Conversions](https://img.shields.io/badge/conversions-9%2F9-brightgreen)
 
 My own remake of `printf` in C, the second project of the 42 Common Core, built on top of my [Libft](https://github.com/Kamisztal/Libft).
 
